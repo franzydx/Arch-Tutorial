@@ -60,6 +60,7 @@ Untuk partisi *swap*
 # swapon /de/swap_partition
 ```
 #### Boot 
+Jalankan `ls /sys/firmware/efi/efivars`, jika terdapar direktori maka boot mode nya adalah *UEFI*
 Bagi pengguna dengan sistem *EFI* format dengan :
 ```
 # mkdir /mnt/boot/efi
